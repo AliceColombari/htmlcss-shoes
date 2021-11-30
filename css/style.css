@@ -46,6 +46,8 @@ body{
 /* Caratteristiche image e text general */
 .image{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-yellow{
