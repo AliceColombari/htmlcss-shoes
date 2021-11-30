@@ -4,7 +4,12 @@
     box-sizing: 0;
 }
 
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* Fine common */
 
+/* Primo Elemento */
 .container{
     width: 100%;
     margin: auto;
@@ -16,6 +21,15 @@
     position: relative;
 }
 
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Fine Primo Elemento */
+
+/* Colori ID */
 #red{
     background-color: rgb(255, 0, 0);
 }
@@ -27,29 +41,25 @@
 #yellow{
     background-color: rgb(255, 255, 0);
 }
+/* Fine Colori ID */
 
+/* Caratteristiche image e text general */
 .image{
     height: 100%;
 }
 
 .text-yellow{
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 0);
 }
+/* Fine Caratteristiche image e text general */
 
+/* Caratteristiche color text Terzo Elemento */
 .text-green{
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(2, 173, 2);
-}
-
-
-.frame{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
