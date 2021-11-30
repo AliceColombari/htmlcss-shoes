@@ -44,7 +44,9 @@ a.number{
     /* font-size: 10px; */
     text-align: center;
     vertical-align: middle;
-    margin: 10px;
+    margin: 30px 10px;
+    padding: 7px;
+    
 }
 
 nav ul li a:hover{
