@@ -7,7 +7,43 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* Fine common */
+
+
+/* menu */
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Primo Elemento */
 .container{
@@ -65,3 +101,4 @@ body{
     text-transform: uppercase;
     color: rgb(2, 173, 2);
 }
+
