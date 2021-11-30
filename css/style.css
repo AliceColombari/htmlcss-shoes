@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+}
+
+#red{
+    background-color: rgb(255, 0, 0);
+}
+
+#green{
+    background-color: rgb(2, 173, 2);
+}
+
+#yellow{
+    background-color: rgb(255, 255, 0);
+}
